@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25649" started-at="2024-09-29T21:00:41 IST" finished-at="2024-09-29T21:01:07 IST">
+    <groups>
+      <group name="sanity">
+        <method signature="TC_LoginTest.verify_Login_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.TC_LoginTest@79be0360]" name="verify_Login_Functionality" class="testCases.TC_LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Chrome_Test" duration-ms="25649" started-at="2024-09-29T21:00:41 IST" finished-at="2024-09-29T21:01:07 IST">
+      <class name="testCases.TC_LoginTest">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:testCases.TC_LoginTest@79be0360]" name="setUpReport" is-config="true" duration-ms="359" started-at="2024-09-29T21:00:41 IST" finished-at="2024-09-29T21:00:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_LoginTest@79be0360]" name="setUp" is-config="true" duration-ms="8988" started-at="2024-09-29T21:00:41 IST" finished-at="2024-09-29T21:00:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verify_Login_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.TC_LoginTest@79be0360]" name="verify_Login_Functionality" duration-ms="8006" started-at="2024-09-29T21:00:52 IST" data-provider="loginData" finished-at="2024-09-29T21:01:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void testCases.TC_LoginTest.verify_Login_Functionality(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_Functionality -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.TC_LoginTest@79be0360]" name="tearDown" is-config="true" duration-ms="16" started-at="2024-09-29T21:01:00 IST" finished-at="2024-09-29T21:01:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Login_Functionality status=SUCCESS method=TC_LoginTest.verify_Login_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.TC_LoginTest@79be0360] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verify_Login_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.TC_LoginTest@79be0360]" name="verify_Login_Functionality" duration-ms="6137" started-at="2024-09-29T21:01:00 IST" data-provider="loginData" finished-at="2024-09-29T21:01:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[36363627]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void testCases.TC_LoginTest.verify_Login_Functionality(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_Functionality -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.TC_LoginTest@79be0360]" name="tearDown" is-config="true" duration-ms="1" started-at="2024-09-29T21:01:06 IST" finished-at="2024-09-29T21:01:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Login_Functionality status=SUCCESS method=TC_LoginTest.verify_Login_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.TC_LoginTest@79be0360] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_LoginTest@79be0360]" name="tearDown" is-config="true" duration-ms="928" started-at="2024-09-29T21:01:06 IST" finished-at="2024-09-29T21:01:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:testCases.TC_LoginTest@79be0360]" name="tearDownReport" is-config="true" duration-ms="541" started-at="2024-09-29T21:01:07 IST" finished-at="2024-09-29T21:01:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- testCases.TC_LoginTest -->
+    </test> <!-- Chrome_Test -->
+  </suite> <!-- Suite -->
+</testng-results>

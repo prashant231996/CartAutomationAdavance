@@ -1,0 +1,15 @@
+[DEBUG] 2024-09-25 21:23:11.641 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-09-25 21:23:11.670 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2024-09-25 21:23:11.673 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2024-09-25 21:26:18.361 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-09-25 21:26:18.373 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2024-09-25 21:26:18.377 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2024-09-25 21:27:15.285 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-09-25 21:27:15.293 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2024-09-25 21:27:15.295 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2024-09-25 21:29:29.242 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-09-25 21:29:29.261 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2024-09-25 21:29:29.267 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2024-09-25 21:32:00.985 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-09-25 21:32:01.000 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2024-09-25 21:32:01.004 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
