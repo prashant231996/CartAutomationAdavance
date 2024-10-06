@@ -4,14 +4,18 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;//Log4j
 import org.apache.logging.log4j.Logger;//Log4j
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -76,6 +80,42 @@ public class BaseTest {
 		prop.load(fis);
 		logger=LogManager.getLogger(this.getClass());
 		
+		//Execution Environment is Remote
+		if(prop.getProperty("executionMode").equalsIgnoreCase("remote"))
+		{
+			DesiredCapabilities cap=new DesiredCapabilities();
+			//OS
+			if(os.equalsIgnoreCase("windows"))
+			{
+				cap.setPlatform(Platform.WINDOWS);
+			}
+			else if(os.equalsIgnoreCase("mac"))
+			{
+				cap.setPlatform(Platform.MAC);
+			}
+			else
+			{
+				System.out.println("No matching OS..");
+				return;
+			}
+			
+			//Browser
+			switch(browser.toLowerCase())
+			{
+			case "chrome":cap.setBrowserName("Chrome");
+			              break;
+			case "edge":  cap.setBrowserName("MicrosoftEdge");
+			              break;
+			default:System.out.println("No matching browser");
+			        return;
+			}	
+			
+			driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);	
+		}
+		
+		//Execution environment is local
+		if(prop.getProperty("executionMode").equalsIgnoreCase("local"))
+		{
 		switch(browser.toLowerCase())
 		{
 		case "chrome":
@@ -88,6 +128,7 @@ public class BaseTest {
 			break;
 		default: System.out.println("Invalid browser name");
 		    return;
+		}
 		}
 		
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
