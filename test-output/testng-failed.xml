@@ -11,16 +11,16 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_LoginTest">
+      <class name="testCases.TC_Upload_Download_Func_Test">
         <methods>
-          <include name="verify_Login_Functionality"/>
-          <include name="tearDown"/>
+          <include name="testDownloadAndUploadFunctionality" invocation-numbers="0"/>
           <include name="setUpReport"/>
           <include name="tearDownReport"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.TC_LoginTest -->
+      </class> <!-- testCases.TC_Upload_Download_Func_Test -->
     </classes>
   </test> <!-- Chrome_Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

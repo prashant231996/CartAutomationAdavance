@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23080" started-at="2024-09-29T20:20:34 IST" finished-at="2024-09-29T20:20:57 IST">
+  <suite name="Suite" duration-ms="17015" started-at="2024-10-17T21:47:02 IST" finished-at="2024-10-17T21:47:19 IST">
     <groups>
       <group name="sanity">
-        <method signature="TC_LoginTest.verify_Login_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.TC_LoginTest@7d70d1b1]" name="verify_Login_Functionality" class="testCases.TC_LoginTest"/>
+        <method signature="TC_Upload_Download_Func_Test.testDownloadAndUploadFunctionality(java.lang.reflect.Method)[pri:0, instance:testCases.TC_Upload_Download_Func_Test@2a742aa2]" name="testDownloadAndUploadFunctionality" class="testCases.TC_Upload_Download_Func_Test"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Chrome_Test" duration-ms="23080" started-at="2024-09-29T20:20:34 IST" finished-at="2024-09-29T20:20:57 IST">
-      <class name="testCases.TC_LoginTest">
-        <test-method status="PASS" signature="setUpReport()[pri:0, instance:testCases.TC_LoginTest@7d70d1b1]" name="setUpReport" is-config="true" duration-ms="387" started-at="2024-09-29T20:20:34 IST" finished-at="2024-09-29T20:20:34 IST">
+    <test name="Chrome_Test" duration-ms="17015" started-at="2024-10-17T21:47:02 IST" finished-at="2024-10-17T21:47:19 IST">
+      <class name="testCases.TC_Upload_Download_Func_Test">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:testCases.TC_Upload_Download_Func_Test@2a742aa2]" name="setUpReport" is-config="true" duration-ms="387" started-at="2024-10-17T21:47:01 IST" finished-at="2024-10-17T21:47:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_LoginTest@7d70d1b1]" name="setUp" is-config="true" duration-ms="6845" started-at="2024-09-29T20:20:34 IST" finished-at="2024-09-29T20:20:41 IST">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_Upload_Download_Func_Test@2a742aa2]" name="setUp" is-config="true" duration-ms="6992" started-at="2024-10-17T21:47:02 IST" finished-at="2024-10-17T21:47:09 IST">
           <params>
             <param index="0">
               <value>
@@ -30,89 +30,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verify_Login_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.TC_LoginTest@7d70d1b1]" name="verify_Login_Functionality" duration-ms="7596" started-at="2024-09-29T20:20:43 IST" data-provider="loginData" finished-at="2024-09-29T20:20:50 IST">
+        <test-method status="PASS" signature="testDownloadAndUploadFunctionality(java.lang.reflect.Method)[pri:0, instance:testCases.TC_Upload_Download_Func_Test@2a742aa2]" name="testDownloadAndUploadFunctionality" duration-ms="8985" started-at="2024-10-17T21:47:09 IST" finished-at="2024-10-17T21:47:18 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void testCases.TC_LoginTest.verify_Login_Functionality(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)]]>
+                <![CDATA[public void testCases.TC_Upload_Download_Func_Test.testDownloadAndUploadFunctionality(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_Login_Functionality -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.TC_LoginTest@7d70d1b1]" name="tearDown" is-config="true" duration-ms="18" started-at="2024-09-29T20:20:50 IST" finished-at="2024-09-29T20:20:50 IST">
+        </test-method> <!-- testDownloadAndUploadFunctionality -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.TC_Upload_Download_Func_Test@2a742aa2]" name="tearDown" is-config="true" duration-ms="8" started-at="2024-10-17T21:47:18 IST" finished-at="2024-10-17T21:47:18 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_Login_Functionality status=SUCCESS method=TC_LoginTest.verify_Login_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.TC_LoginTest@7d70d1b1] output={null}]]]>
+                <![CDATA[[TestResult name=testDownloadAndUploadFunctionality status=SUCCESS method=TC_Upload_Download_Func_Test.testDownloadAndUploadFunctionality(java.lang.reflect.Method)[pri:0, instance:testCases.TC_Upload_Download_Func_Test@2a742aa2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="verify_Login_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.TC_LoginTest@7d70d1b1]" name="verify_Login_Functionality" duration-ms="6168" started-at="2024-09-29T20:20:50 IST" data-provider="loginData" finished-at="2024-09-29T20:20:56 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[36363627]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void testCases.TC_LoginTest.verify_Login_Functionality(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_Login_Functionality -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.TC_LoginTest@7d70d1b1]" name="tearDown" is-config="true" duration-ms="1" started-at="2024-09-29T20:20:56 IST" finished-at="2024-09-29T20:20:56 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verify_Login_Functionality status=SUCCESS method=TC_LoginTest.verify_Login_Functionality(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:testCases.TC_LoginTest@7d70d1b1] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_Upload_Download_Func_Test@2a742aa2]" name="tearDown" is-config="true" duration-ms="976" started-at="2024-10-17T21:47:18 IST" finished-at="2024-10-17T21:47:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_LoginTest@7d70d1b1]" name="tearDown" is-config="true" duration-ms="985" started-at="2024-09-29T20:20:56 IST" finished-at="2024-09-29T20:20:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:testCases.TC_LoginTest@7d70d1b1]" name="tearDownReport" is-config="true" duration-ms="535" started-at="2024-09-29T20:20:57 IST" finished-at="2024-09-29T20:20:58 IST">
+        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:testCases.TC_Upload_Download_Func_Test@2a742aa2]" name="tearDownReport" is-config="true" duration-ms="567" started-at="2024-10-17T21:47:19 IST" finished-at="2024-10-17T21:47:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
-      </class> <!-- testCases.TC_LoginTest -->
+      </class> <!-- testCases.TC_Upload_Download_Func_Test -->
     </test> <!-- Chrome_Test -->
   </suite> <!-- Suite -->
 </testng-results>

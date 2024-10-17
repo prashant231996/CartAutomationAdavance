@@ -12,7 +12,8 @@
   <parameter name="browser" value="chrome"/>
     <classes>
      <!-- <class name="testCases.TC_AccountRegistrationTest"/>-->
-      <class name="testCases.TC_LoginTest"/>
+     <!-- <class name="testCases.TC_LoginTest"/>-->
+          <class name="testCases.TC_Upload_Download_Func_Test"/>
     </classes>
   </test> <!-- Test -->
   

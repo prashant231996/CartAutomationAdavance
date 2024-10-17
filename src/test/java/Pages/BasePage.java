@@ -22,7 +22,6 @@ public class BasePage {
 		this.driver=driver;
 		wait=new WebDriverWait(driver, 10);
 		js=(JavascriptExecutor)driver;
-		
 	}
 	
 	public WebElement findElement(By ele)
@@ -71,6 +70,19 @@ public class BasePage {
 		WebElement element=findElement(ele);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(ele));
 		js.executeScript("arguments[0].setAttribute('value','"+text+"')",element);
+	}
+	
+	//Upload File
+	public void uploadFile(By ele,String filePath)
+	{
+		WebElement uploadButtonEle=findElement(ele);
+		uploadButtonEle.sendKeys(filePath);
+	}
+	
+	//Wait until invisibility of respective webelement
+	public void waitUntilInvisibilityOfElement(By ele)
+	{
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(ele));
 	}
 	
 }
