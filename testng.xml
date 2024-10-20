@@ -13,7 +13,9 @@
     <classes>
      <!-- <class name="testCases.TC_AccountRegistrationTest"/>-->
      <!-- <class name="testCases.TC_LoginTest"/>-->
-          <class name="testCases.TC_Upload_Download_Func_Test"/>
+     <!--  <class name="testCases.TC_Upload_Download_Func_Test"/>-->
+     <!-- <class name="testCases.TC_TestToBuyTicket"/>-->
+     <class name="testCases.TC_FileUploadTest"/>
     </classes>
   </test> <!-- Test -->
   
